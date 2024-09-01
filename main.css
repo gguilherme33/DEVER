@@ -1,0 +1,216 @@
+/*
+laranja: rgb(246,94,0);
+cinza-azulado: rgb(13,31,41);
+azul-escuro: rgb(1, 17, 23);
+*/
+
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing:border-box;
+}
+html {
+    margin:0;
+}
+
+span {
+    color: rgb(246,94,0);
+    
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+section, .divisoria nav {
+    width:900px;
+    margin: auto;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top figure {
+    position:relative;
+    width:500px;
+    text-align: right;
+}
+
+.top article {
+    width: 300px;  
+}
+
+.top figcaption {
+    position: absolute;
+    top: 0;
+    left: 310px;
+    background: rgb(13,31,41);
+    color: #fff;
+    padding: 5px ;
+    font-size: 0.7em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.divisoria {
+    width: 100%;
+    background: rgb(13,31,41);
+}
+
+.divisoria ul {
+    display: flex;
+    flex-direction:row;
+    padding-left: 0;
+    list-style: none;
+}
+.divisoria li {
+    padding:10px 20px; 
+}
+.divisoria li:first-child, .divisoria li:hover {
+    background-color: rgb(246,94,0);
+    
+}
+
+.divisoria a {
+    text-decoration: none;  
+    color: #fff;
+}
+
+main section {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    width: 270px;
+}
+
+.box figure {
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+    
+}
+
+.box figcaption{
+    position:absolute;
+    bottom:-5px;
+    width:100%;
+    padding:5px 5px 15px;
+    text-align: center;
+    background: rgba(0,0,0,0.8); 
+    color: #fff;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 55% 75%, 50% 100%, 45% 75%, 0% 75%);
+}
+
+.box img {
+    width:inherit;
+}
+
+.box p {
+    font-size:0.8em;   
+}
+.box button {
+    background-color: rgb(246,94,0);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+h1 {
+font-size: 200%;
+}
+footer {
+    background-color: rgb(13, 31, 41);
+    padding: 40px 0;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-content {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer h4 {
+    color: white; /* Corrigido para branco */
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+footer .fale-conosco,
+footer .areas-cobertas {
+    width: 48%;
+}
+
+footer .fale-conosco p,
+footer .areas-cobertas p {
+    margin-bottom: 10px; /* Espaçamento entre parágrafos */
+    font-size: 0.9em;
+    line-height: 1.6em;
+    color: white; /* Corrigido para branco */
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer form input,
+footer form textarea {
+    padding: 8px; /* Ajuste do padding para se alinhar ao design */
+    margin-bottom: 10px;
+    border: none; /* Removido a borda */
+    border-radius: 5px;
+    background-color: rgb(1, 17, 23); /* Fundo dos inputs */
+    color: white; /* Cor do texto dentro dos inputs */
+    font-size: 0.85em; /* Reduzido o tamanho da fonte */
+}
+
+footer form button {
+    background-color: rgb(246, 94, 0);
+    color: white;
+    padding: 8px; /* Ajuste do padding para se alinhar ao design */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.85em; /* Reduzido o tamanho da fonte */
+    width: 100px; /* Tamanho ajustado para o botão */
+    align-self: flex-end; /* Alinhamento à direita */
+}
+    .cor {
+        background-color: rgb(1, 17, 23);
+        
+    }
+    .c1{
+        display: flex;
+    flex-wrap: wrap;
+    gap: 46px;
+    }
+    .c2{
+        display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    }
+    .c3{
+        display: flex;
+    flex-wrap: wrap;
+    gap: 66px;
+    }
+    .c4{
+        display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    }
